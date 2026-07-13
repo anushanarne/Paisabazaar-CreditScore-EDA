@@ -2,42 +2,24 @@
 Exploratory Data Analysis (EDA) project to analyze customer financial data and identify the key factors influencing credit scores.
 # 📊 Paisabazaar Credit Risk Analysis
 
-## 📌 Project Overview
+### 📌 Project Overview
+This project analyzes customer financial data to understand the key factors influencing credit scores and credit risk. Using Exploratory Data Analysis (EDA), the project uncovers patterns in customer financial behavior, identifies customer risk segments, and provides actionable insights to improve lending decisions and reduce default risk.
 
-This project analyzes customer financial data to understand the key factors influencing credit scores and credit risk. Using Exploratory Data Analysis (EDA), the project uncovers patterns in customer financial behavior, identifies customer risk segments, and provides actionable insights that can help Paisabazaar improve lending decisions, reduce default risk, and enhance customer experience.
-
----
-
-## 📝 Problem Statement
-
-Paisabazaar faces the challenge of accurately evaluating customer creditworthiness. Customers exhibit diverse financial behaviors—some maintain healthy financial discipline, while others struggle with delayed payments, high debt, or excessive credit utilization.
-
-Without a robust data-driven approach, it becomes difficult to:
-
+### 📝 Problem Statement
+Paisabazaar faces challenges in accurately evaluating customer creditworthiness due to varying financial behaviors. This project aims to:
 - Identify high-risk customers early.
-- Offer the right financial products to the right customer segments.
+- Recommend suitable financial products.
 - Balance business growth with effective risk management.
-- Minimize loan defaults while maintaining profitability.
 
----
-
-## 🎯 Business Objective
-
-The primary objectives of this project are to:
-
-- Identify the key factors influencing customer credit scores.
-- Analyze customer financial behavior and spending patterns.
-- Segment customers into Good, Standard, and Poor credit risk categories.
-- Detect high-risk customers before loan approval.
+### 🎯 Business Objective
+- Identify key factors influencing credit scores.
+- Analyze customer financial behavior.
+- Segment customers into risk categories.
 - Support data-driven lending decisions.
-- Improve customer targeting and reduce loan default risk.
+- Reduce loan default risk.
 
----
-
-## 📂 Dataset
-
-The dataset contains customer financial and credit-related information, including:
-
+### 📂 Dataset
+The dataset includes:
 - Credit Score
 - Payment Behavior
 - Monthly Income
@@ -49,112 +31,40 @@ The dataset contains customer financial and credit-related information, includin
 - Number of Bank Accounts
 - Number of Credit Cards
 - Number of Loan Inquiries
-- Other financial attributes
 
----
+### ⚙️ Methodology
+- Data Cleaning
+- Feature Engineering
+- Outlier Handling (Winsorization)
+- Exploratory Data Analysis (EDA)
 
-## ⚙️ Methodology
+### 📈 Key Findings
+- Timely payments improve credit scores.
+- High debt-to-income ratio lowers credit scores.
+- Balanced EMI commitments indicate financial stability.
+- Lower credit utilization reflects responsible credit usage.
+- Stable monthly balances and longer credit history contribute to stronger credit profiles.
 
-### Data Cleaning & Preparation
-- Removed duplicate records.
-- Handled missing values.
-- Corrected inconsistent data formats.
-- Converted data types where required.
+### 👥 Customer Segmentation
+🟢 **Good Credit Score**
+- Financially disciplined
+- Low lending risk
 
-### Feature Engineering
-- Created meaningful financial metrics.
-- Prepared the dataset for analysis.
-- Encoded categorical variables where necessary.
+🟡 **Standard Credit Score**
+- Moderate financial risk
+- Opportunity for improvement
 
-### Outlier Handling
-- Applied Winsorization by capping extreme values at the 1st and 99th percentiles.
-- Reduced the influence of extreme values while preserving all observations.
+🔴 **Poor Credit Score**
+- High repayment risk
+- Requires closer monitoring
 
-### Exploratory Data Analysis (EDA)
+### 💼 Business Solution
+- Build predictive credit scoring models.
+- Segment customers into low, medium, and high-risk groups.
+- Offer personalized financial products.
+- Continuously monitor customer behavior.
 
-Performed analysis using:
-
-- Distribution Plots
-- Histograms
-- Box Plots
-- Scatter Plots
-- Count Plots
-- Correlation Heatmaps
-- Pair Plots
-
----
-
-## 📈 Key Findings
-
-- **Payment Behavior:** Customers who make timely payments consistently achieve higher credit scores.
-- **Debt-to-Income Ratio:** Higher debt relative to income is strongly associated with lower credit scores.
-- **EMI-to-Salary Ratio:** Customers with manageable EMI obligations demonstrate healthier financial profiles.
-- **Credit Utilization:** Lower utilization reflects responsible credit management and contributes to better credit scores.
-- **Monthly Balance:** Stable monthly balances indicate sound financial discipline.
-- **Credit History Age:** Longer credit histories generally lead to stronger creditworthiness.
-- **Loan Inquiries:** Frequent credit inquiries slightly reduce credit scores, indicating higher financial risk.
-
----
-
-## 👥 Customer Segmentation
-
-### 🟢 Good Credit Score
-- Financially disciplined customers.
-- Low lending risk.
-- Suitable for premium financial products.
-
-### 🟡 Standard Credit Score
-- Moderate financial risk.
-- Opportunity for improvement through responsible credit behavior.
-
-### 🔴 Poor Credit Score
-- High repayment risk.
-- Delayed payments, excessive debt, and high credit utilization.
-- Requires closer monitoring and financial guidance.
-
----
-
-## 💼 Business Insights
-
-### Benefits
-
-- Improve credit risk assessment.
-- Personalize financial product recommendations.
-- Identify high-value customers.
-- Support fair and data-driven lending decisions.
-- Strengthen customer retention and loyalty.
-
-### Business Risks
-
-- Increased loan defaults due to high debt burdens.
-- Inefficient customer targeting.
-- Higher financial exposure from excessive borrowing and frequent credit inquiries.
-
----
-
-## 🚀 Business Solution
-
-Based on the insights obtained from EDA, Paisabazaar can:
-
-- Build predictive credit scoring models using financial and behavioral indicators.
-- Segment customers into Low, Medium, and High-risk groups.
-- Offer premium products and better interest rates to financially disciplined customers.
-- Provide financial counseling or loan restructuring options for high-risk customers.
-- Continuously monitor customer behavior and update credit risk models to improve prediction accuracy.
-
----
-
-## 💡 Recommendations
-
-- Enhance credit scoring models using behavioral and financial ratio-based features.
-- Promote responsible borrowing through personalized financial guidance.
-- Develop targeted financial products for different customer segments.
-- Continuously refine lending policies using updated customer data.
-
----
-
-## 🛠️ Technologies Used
-
+### 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -164,28 +74,14 @@ Based on the insights obtained from EDA, Paisabazaar can:
 - Google Colab
 - Jupyter Notebook
 
----
-
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```text
 Paisabazaar-Credit-Risk-Analysis/
 │
 ├── Paisabazaar_Credit_Risk_Analysis.ipynb
-├── README.md
+└── README.md
 ```
 
----
-
-## 🚀 How to Run
-
-1. Clone the repository.
-2. Open the notebook in Jupyter Notebook or Google Colab.
-3. Install the required libraries.
-4. Run all cells sequentially.
-
----
-
-## 📌 Conclusion
-
-This project demonstrates that customer financial behavior has a significant impact on credit scores and overall credit risk. Timely payments, balanced debt levels, responsible credit utilization, and stable financial habits are key indicators of creditworthiness. The insights generated through EDA enable Paisabazaar to improve risk assessment, personalize financial products, reduce loan defaults, and support sustainable business growth through data-driven decision-making.
+### 📌 Conclusion
+This project demonstrates how customer financial behavior influences credit scores and credit risk. The insights can help financial institutions make smarter lending decisions, personalize financial products, and reduce loan default risk through data-driven strategies.
