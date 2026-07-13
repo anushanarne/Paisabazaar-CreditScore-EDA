@@ -1,6 +1,6 @@
 # Paisabazaar-EDA
 Exploratory Data Analysis (EDA) project to analyze customer financial data and identify the key factors influencing credit scores.
-# 📊 Paisabazaar Credit Risk Analysis
+### 📊 Paisabazaar Credit Risk Analysis
 
 ### 📌 Project Overview
 This project analyzes customer financial data to understand the key factors influencing credit scores and credit risk. Using Exploratory Data Analysis (EDA), the project uncovers patterns in customer financial behavior, identifies customer risk segments, and provides actionable insights to improve lending decisions and reduce default risk.
